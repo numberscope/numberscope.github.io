@@ -103,7 +103,11 @@
           <p id="numberscopeDescription">
             The Online Tool for Visualizing Integer Sequences
           </p>
-          <a class="btn btn-primary" href="./pages/scope.html">
+          <a
+            id="goToScopeButton"
+            class="btn btn-primary"
+            href="./pages/scope.html"
+          >
             Go to the 'Scope
           </a>
           <p class="mt-4">
@@ -192,6 +196,13 @@
         border: solid black;
         border-radius: 10%;
         max-width: 50%;
+      }
+      #goToScopeButton {
+        color: white;
+        background-color: #3333ff;
+      }
+      #goToScopeButton:hover {
+        text-decoration: underline;
       }
       #numberscopeDescription {
         margin-top: 2em;
