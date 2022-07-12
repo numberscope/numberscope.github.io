@@ -126,6 +126,16 @@
         background-color: #809fff;
         color: white;
       }
+      .navbar-text a {
+        text-decoration: none;
+      }
+      .navbar-text a:hover {
+        text-decoration: underline;
+      }
+      .navbar-text {
+        text-align: right;
+        font-size: small;
+      }
       .footer-link {
         color: orange;
       }
@@ -134,6 +144,20 @@
       }
       #logoWithMicroscope {
         width: 10em;
+      }
+      /*
+      I used ID's instead of a class because Bootstrap's CSS wasn't being
+      overridden when I used a class. ¯\_(ツ)_/¯
+      */
+      #scopeLink,
+      #aboutLink,
+      #helpLink {
+        color: white;
+      }
+      #scopeLink:hover,
+      #aboutLink:hover,
+      #helpLink:hover {
+        text-decoration: underline;
       }
       #linkSpacing {
         padding: 0 2em;
