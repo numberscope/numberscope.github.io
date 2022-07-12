@@ -89,9 +89,35 @@
       </nav>
       <h1>Index</h1>
     </header>
+    <footer class="text-center">
+      <p>
+        Thank you very much to
+        <a class="footer-link" href="./pages/acknowledgements.html"
+          >those who made Numberscope possible</a
+        >
+        over the years!
+      </p>
+    </footer>
     <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      footer {
+        background-color: #3333ff;
+        color: white;
+        padding: 16px 4px;
+        margin-top: auto;
+      }
       .navbar-custom {
         background-color: #809fff;
+        color: white;
+      }
+      .footer-link {
+        color: orange;
+      }
+      .footer-link:hover {
         color: white;
       }
       #logoWithMicroscope {
