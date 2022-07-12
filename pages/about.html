@@ -41,6 +41,8 @@
       href="../assets/favicon_io/favicon-16x16.png"
     />
     <link rel="manifest" href="../assets/favicon_io/site.webmanifest" />
+    <!-- Homemade Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
   </head>
   <body>
     <header>
@@ -142,61 +144,5 @@
         over the years!
       </p>
     </footer>
-    <style>
-      body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-      }
-      main {
-        margin: 2em 0;
-      }
-      footer {
-        background-color: #3333ff;
-        color: white;
-        padding: 16px 4px;
-        margin-top: auto;
-      }
-      .navbar-custom {
-        background-color: #809fff;
-        color: white;
-      }
-      .navbar-text a {
-        text-decoration: none;
-      }
-      .navbar-text a:hover {
-        text-decoration: underline;
-      }
-      .navbar-text {
-        text-align: right;
-        font-size: small;
-      }
-      .footer-link {
-        color: orange;
-      }
-      .footer-link:hover {
-        color: white;
-      }
-      #logoWithMicroscope {
-        width: 10em;
-      }
-      /*
-      I used ID's instead of a class because Bootstrap's CSS wasn't being
-      overridden when I used a class. ¯\_(ツ)_/¯
-      */
-      #scopeLink,
-      #aboutLink,
-      #helpLink {
-        color: white;
-      }
-      #scopeLink:hover,
-      #aboutLink:hover,
-      #helpLink:hover {
-        text-decoration: underline;
-      }
-      #linkSpacing {
-        padding: 0 2em;
-      }
-    </style>
   </body>
 </html>
