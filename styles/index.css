@@ -1,0 +1,23 @@
+/* CSS by ID (should be in order they appear in the DOM) */
+
+#homeContent {
+  text-align: center;
+}
+#backgroundImage {
+  border: solid black;
+  border-radius: 10%;
+  max-width: 50%;
+}
+#goToScopeButton {
+  color: white;
+  background-color: #3333ff;
+}
+#goToScopeButton:hover {
+  text-decoration: underline;
+}
+#numberscopeDescription {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-weight: bold;
+  font-size: large;
+}
