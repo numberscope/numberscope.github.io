@@ -1,26 +1,26 @@
 main {
-    margin: 0;
-    position: relative;
-    
-    /*
-    This is a little hack to make it seem like the p5 canvas and the footer are
-    touching.  In reality, there's a small sliver of space between the p5 canvas
-    and the footer. Why this sliver exists is beyond me. If you'd like to see
-    it, change the color.
-    */
-    background-color: #3333ff;
+  margin: 0;
+  position: relative;
+  
+  /*
+  This is a little hack to make it seem like the p5 canvas and the footer are
+  touching.  In reality, there's a small sliver of space between the p5 canvas
+  and the footer. Why this sliver exists is beyond me. If you'd like to see
+  it, change the color.
+  */
+  background-color: #3333ff;
 }
 
 #settingsButton {
-    font-size: 2em;
-    background-color: transparent;
-    border-radius: 20%;
-    
-    /*
-    This, together with position: relative; on main makes the button sit on top
-    of the p5 canvas.
-    */
-    position: absolute;
-    left: 1em;
-    top: 1em;
+  font-size: 2em;
+  background-color: transparent;
+  border-radius: 20%;
+  
+  /*
+  This, together with position: relative; on main makes the button sit on top
+  of the p5 canvas.
+  */
+  position: absolute;
+  left: 1em;
+  top: 1em;
 }
