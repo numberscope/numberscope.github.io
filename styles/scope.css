@@ -5,9 +5,7 @@
   margin: 1em 0;
 }
 
-/* CSS by ID (should be in order they appear in the DOM) */
-
-#turtleWalkImage, #similarityTelescopeImage {
+.viz-card-img {
   image-orientation: from-image; /* Use EXIF data from the image. */
   border: solid black;
   border-radius: 10%;
