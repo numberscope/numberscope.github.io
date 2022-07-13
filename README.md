@@ -1,2 +1,3 @@
 # numberscope.github.io
-Numberscope Documentation
+
+A static site for Numberscope.

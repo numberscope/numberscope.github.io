@@ -4,25 +4,144 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Numberscope Documentation</title>
+    <title>Numberscope</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <!-- Favicon Stuff -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
+    <!-- Homemade Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
   </head>
   <body>
-    <h1>Numberscope Documentation</h1>
-    <ul>
-      <li>
-        <a href="#"><h2>frontscope Documentation</h2></a>
-      </li>
-      <li>
-        <a href="#"><h2>backscope Documentation</h2></a>
-      </li>
-      <li>
-        <a href="./server-admin.html"
-          ><h2>Server Administration Documentation</h2></a
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./assets/img/NumberscopeLogo.png"
+              id="numberscopeLogo"
+              alt="A microscope icon."
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation."
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" id="scopeLink" href="./pages/scope.html">
+                  The 'Scope
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="aboutLink" href="./pages/about.html">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="helpLink" href="./pages/help.html">
+                  Help
+                </a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Copyright © 2020-2022
+              <br />
+              Licensed Under the
+              <a href="https://opensource.org/licenses/MIT"> MIT License</a>
+            </span>
+            <span class="navbar-text"> </span>
+          </div>
+        </div>
+      </nav>
+      <main class="container">
+        <div id="homeContent">
+          <a href="./pages/scope.html">
+            <img
+              src="./assets/img/NumberscopeBackground.jpeg"
+              id="backgroundImage"
+            />
+          </a>
+          <p id="numberscopeDescription">
+            The Online Tool for Visualizing Integer Sequences
+          </p>
+          <a
+            id="goToScopeButton"
+            class="btn btn-primary"
+            href="./pages/scope.html"
+          >
+            Go to the 'Scope
+          </a>
+          <p class="mt-4">
+            By using this website, you agree that any images or media you create
+            using the tools on this website are released by you into the public
+            domain according to
+            <a href="https://creativecommons.org/publicdomain/zero/1.0/"
+              >CC0 1.0</a
+            >.
+          </p>
+        </div>
+      </main>
+    </header>
+    <footer class="text-center">
+      <p>
+        <i class="bi bi-github"></i>
+        <a class="footer-link" href="https://github.com/numberscope">GitHub</a>
+        <span id="linkSpacing"></span>
+        <i class="bi bi-twitter"></i>
+        <a class="footer-link" href="https://twitter.com/numberscoper"
+          >Twitter</a
         >
-      </li>
-      <li>
-        <a href="./github.html"><h2>Numberscope GitHub Conventions</h2></a>
-      </li>
-    </ul>
+      </p>
+      <p>
+        Thank you very much to
+        <a class="footer-link" href="./pages/acknowledgements.html"
+          >those who made Numberscope possible</a
+        >
+        over the years!
+      </p>
+    </footer>
   </body>
 </html>

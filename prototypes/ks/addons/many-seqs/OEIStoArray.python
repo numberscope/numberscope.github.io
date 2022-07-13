@@ -1,0 +1,10 @@
+fi = open("mobius.txt", "r")
+fo = open("mobius.js", "w")
+lines = fi.readlines()
+fo.write("mobiusSeq = [")
+fo.write(lines[0].split()[1])
+for line in lines[1:]:
+   splitline = line.split()
+   if len(splitline) > 1 :
+      fo.write(","+splitline[1])
+fo.write("];")

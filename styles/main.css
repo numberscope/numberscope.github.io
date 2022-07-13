@@ -1,0 +1,62 @@
+/* CSS by tag (should be in order they appear in the DOM) */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  margin: 2em 0;
+}
+footer {
+  background-color: #3333ff;
+  color: white;
+  padding: 16px 4px;
+  margin-top: auto;
+}
+
+/* CSS by class (should be in order they appear in the DOM) */
+
+.navbar-custom {
+  background-color: #809fff;
+  color: white;
+}
+.navbar-text a {
+  text-decoration: none;
+}
+.navbar-text a:hover {
+  text-decoration: underline;
+}
+.navbar-text {
+  text-align: right;
+  font-size: small;
+}
+.footer-link {
+  color: orange;
+}
+.footer-link:hover {
+  color: white;
+}
+#numberscopeLogo {
+  width: 10em;
+}
+
+/* CSS by ID (should be in order they appear in the DOM) */
+
+/*
+I used ID's instead of a class because Bootstrap's CSS wasn't being
+overridden when I used a class. ¯\_(ツ)_/¯
+*/
+#scopeLink,
+#aboutLink,
+#helpLink {
+  color: white;
+}
+#scopeLink:hover,
+#aboutLink:hover,
+#helpLink:hover {
+  text-decoration: underline;
+}
+#linkSpacing {
+  padding: 0 2em;
+}

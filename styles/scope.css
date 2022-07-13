@@ -1,0 +1,13 @@
+/* CSS by class (should be in order they appear in the DOM) */
+
+.card {
+  padding: 1em;
+}
+
+/* CSS by ID (should be in order they appear in the DOM) */
+
+#turtleWalkImage {
+  image-orientation: from-image; /* Use EXIF data from the image. */
+  border: solid black;
+  border-radius: 10%;
+}
