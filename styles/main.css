@@ -31,18 +31,28 @@ footer {
   text-align: right;
   font-size: small;
 }
+/* We're overriding Bootstrap's CSS here. */
+.btn-primary {
+  color: white;
+  background-color: #3333ff;
+}
+/* We're overriding Bootstrap's CSS here. */
+.btn-primary:hover {
+  text-decoration: underline;
+  background-color: #3333ff;
+}
 .footer-link {
   color: orange;
 }
 .footer-link:hover {
   color: white;
 }
-#numberscopeLogo {
-  width: 10em;
-}
 
 /* CSS by ID (should be in order they appear in the DOM) */
 
+#numberscopeLogo {
+  width: 10em;
+}
 /*
 I used ID's instead of a class because Bootstrap's CSS wasn't being
 overridden when I used a class. ¯\_(ツ)_/¯
