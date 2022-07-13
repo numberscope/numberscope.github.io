@@ -1,0 +1,19 @@
+seqList = open("sequence-list.txt", "r")
+batchOut = open("batchOEIS.js", "w")
+loadOut = open("loadOEIS.js", "w")
+lines = seqList.readlines()
+for seqInfo in lines:
+	splitline = seqInfo.split(", ")
+	if len(splitline) > 1:
+		seqNumber = splitline[0][1:]
+		seqName = splitline[1][:-1]
+		fileName = "oeis-data/b"+seqNumber+".txt"
+		inTermsFile = open(fileName, "r")
+		inTerms = inTermsFile.readlines()
+		batchOut.write("A"+seqNumber+"Seq = [")
+		batchOut.write(inTerms[0].split()[1])
+		for term in inTerms[1:]:
+			if len(term) > 1 and len(term.split()) < 3 :
+				batchOut.write("n,"+term.split()[1])
+		batchOut.write("n];\n")
+		loadOut.write("mySeqs.push([this.createFromFile(A"+seqNumber+"Seq,bd),\'"+seqName+"\',\'A"+seqNumber+"\']);\n")

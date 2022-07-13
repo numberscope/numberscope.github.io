@@ -1,0 +1,41 @@
+{
+  "name": "number-theory",
+  "version": "1.1.0",
+  "description": "Number theory functions for javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -a code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsandor/number-theory.git"
+  },
+  "keywords": [
+    "number",
+    "theory",
+    "euler",
+    "math"
+  ],
+  "author": "Ryan Sandor Richards <sandor.richards@gmail.com>",
+  "contributors": [
+    {
+      "name": "Jim Fowler",
+      "email": "fowler@math.osu.edu",
+      "url": "http://kisonecat.com/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsandor/number-theory/issues"
+  },
+  "homepage": "https://github.com/rsandor/number-theory",
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.8.1",
+    "jsdoc": "*",
+    "underscore": "*"
+  },
+  "dependencies": {
+    "compute-unique": "^1.0.1"
+  }
+}

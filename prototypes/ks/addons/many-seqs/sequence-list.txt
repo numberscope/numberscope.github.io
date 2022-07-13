@@ -1,0 +1,148 @@
+A027642, Denominators of Bernoulli
+A000367, Numerators of Bernoulli
+A184535, Elliptic troublemaker R(2,5)
+A267167, Growth series of B4 Coxeter
+A055671, Prime quaternions of norm n
+A000930, Narayana\'s Cows
+A006874, Mu atoms of Mandelbrot
+A001359, Lesser of twin primes
+A003285, Ctd frac period of sqrt n
+A001175, Pisano periods
+A163890, Hilbert curve orbits
+A163355, Hilbert curve permutation
+A005171, Prime locations
+A003849, Fibonacci word
+A000793, Landau\'s g
+A159819, L-series of ellcurve 48a4
+A005788, Elliptic curve conductors
+A060838, Rank of ellcurve family
+A088192, Upper QR gap
+A001918, Smallest primitive root
+A001122, Primes with prim-root 2
+A004018, Ways sum of 2 squares
+A079296, Andrica\'s conjecture
+A101273, Prop-Calculus Goedel
+A002410, Rounded zeta zeroes
+A082885, Primes of big gap
+A253236, Prime where cyclo-poly factors
+A003417, Continued fraction of e
+A001006, Motzkin numbers
+A004001, Hofstadter-Conway 10K
+A000700, Distinct odd partitions
+A000045, Fibonacci numbers
+A006721, Somos-5
+A006769, An elliptic divisibility seq
+A000108, Catalan numbers
+A005318, Conway-Guy
+A007542, Conway\'s Prime Game
+A000521, Coeffs of j q-expansion
+A002326, Multiplic order of 2 mod 2n+1
+A001605, Indices of prime Fibonaccis
+A061446, Primitive part of Fibonaccis
+A000727, Expansion of (1-x^k)^4
+A104272, Ramanujan primes
+A067128, Ramanujan\'s largely composite
+A064533, Ramanujan-landau constant digits
+A001113, Digits of e
+A001622, Digits of phi
+A002193, Digits of sqrt(2)
+A139250, Toothpick sequence
+A000129, Pell numbers
+A005385, Safe primes
+A003602, Kimberling\'s paraphrases
+A064413, EKG sequence
+A000037, Non-squares
+A068921, Tile 2xn with Tatami mats
+A001055, Multiplicative partitions
+A001235, Taxicab numbers
+A001223, Prime gaps
+A001043, Sum of two consecutive primes
+A001414, Integer log of n
+A078701, Least odd prime factor
+A090783, Diff of prime sqrs three ways
+A120498, c from abc conjecture
+A000085, Young tableaux
+A185256, Stanley sequence S(0,3)
+A005487, Stanley sequence S(0,4)
+A236269, First diff of Stanley S(0,4)
+A171109, Gromov-Witten genus 1
+A000069, Odious numbers
+A020896, Sums of two fifth powers
+A000796, Digits of Pi
+A005228, Hofstadter Figure-Figure
+A000118, Num ways sum of 4 squares
+A008683, Moebius function
+A001203, Continued fraction Pi
+A000041, Partitions of n
+A001951, Beatty (floor n*(sqrt2))
+A002375, Goldbach (num ways)
+A229037, Forest Fire
+A003273, Congruent numbers
+A004011, Theta series of D4
+A081121, y^2 = x^3 - n no solutions
+A004718, Norgard\'s infinity sequence
+A005132, Recaman\'s sequence
+A000005, Number of divisors of n
+A000040, Prime numbers
+A000010, Euler phi function
+A051953, Cototient function
+A000203, Sigma(1,n) (sum of divisors)
+A001157, Sigma(2,n)
+A001158, Sigma(3,n)
+A000594, Ramanujan Tau
+A005185, Hofstadter Q
+A010060, Thue-Morse
+A007814, 2-adic valuation of n
+A007949, 3-adic valuation of n
+A112765, 5-adic valuation of n
+A046644, square root of Riemann zeta
+A278478, 2-adic valuation of partitions
+A005206, Hofstadter G
+A000217, Triangular numbers
+A000110, Bell numbers
+A006037, Weird numbers
+A092782, Ternary tribonacci word
+A103391, Even fractal sequence
+A000201, Lower Wythoff (Beatty phi)
+A022843, Beatty of e (floor n*e)
+A007306, Farey denominators
+A008836, Liouville\'s function
+A020882, Hypot of Pythagorean triples
+A099254, A granny knot sequence
+A152389, Steps in game of life
+A269160, Rule 30 automaton rule
+A051023, Rule 30 automaton center
+A055673, norms of primes in Z[sqrt(2)]
+A062537, Nodes in RIFF
+A061350, max(Aut(G)) for finite groups
+A003963, Multiplicative a(p_k)=k
+A001008, Numerators of harmonic numbers
+A019444, Permut\'n with integer averages
+A047659, Non-attacking queens on nxn
+A057660, Sum_k of n/gcd(n,k)
+A003679, Not sum of 3 pentagonal
+A002348, Deg. Poncelet porism n-gon
+A037161, Numerators well-ordered rat\'ls
+A027844, Klein bottle fundamental group
+A090751, Indecomposable grps of order n
+A003114, Partitions into 5k+1 or 5k+4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

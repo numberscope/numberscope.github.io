@@ -45,15 +45,6 @@
     <!-- Homemade Stylesheets -->
     <link rel="stylesheet" type="text/css" href="../styles/main.css" />
     <link rel="stylesheet" type="text/css" href="../styles/scope.css" />
-    <!-- p5.js -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"
-      integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!-- Homemade JavaScript -->
-    <script src="../scripts/scope.js"></script>
   </head>
   <body>
     <header>
@@ -104,42 +95,23 @@
         </div>
       </nav>
     </header>
-    <main>
-      <button
-        id="settingsButton"
-        data-bs-toggle="modal"
-        data-bs-target="#scopeSettings"
-      >
-        <i class="bi bi-gear"></i>
-      </button>
-      <div id="scopeSettings" class="modal" tabindex="-1">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">'Scope Settings</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <p>Settings go here.</p>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">
-                Save Settings
-              </button>
-            </div>
-          </div>
+    <main class="container">
+      <h1>View a specimen under the 'Scope!</h1>
+      <div class="card" style="width: 18rem">
+        <img
+          id="turtleWalkImage"
+          class="card-img-top"
+          src="../assets/img/TurtleWalk.png"
+          alt="Image of the turtle walk visualizer"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Turtle Walk</h5>
+          <p class="card-text">Walk like a turtle!</p>
+          <a
+            href="../prototypes/ks/turtle-walk/turtle-walk.html"
+            class="btn btn-primary"
+            >View</a
+          >
         </div>
       </div>
     </main>
