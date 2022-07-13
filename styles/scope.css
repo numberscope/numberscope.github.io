@@ -6,7 +6,7 @@ main {
   This is a little hack to make it seem like the p5 canvas and the footer are
   touching.  In reality, there's a small sliver of space between the p5 canvas
   and the footer. Why this sliver exists is beyond me. If you'd like to see
-  it, change the color.
+  the sliver, change the color.
   */
   background-color: #3333ff;
 }
