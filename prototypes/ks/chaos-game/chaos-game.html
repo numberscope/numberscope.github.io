@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chaos Game Visualizer</title>
-    <style> body {padding: 0; margin: 0;} </style>
-    <script src="../p5.min.js"></script>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <!-- Old p5.js -->
+    <!-- <script src="../p5.min.js"></script> -->
+    <!-- New p5.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"
+      integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="../addons/p5.dom.min.js"></script>
     <script src="../addons/p5.sound.min.js"></script>
     <script src="../addons/number-theory/numthy.js"></script>
-    <script src="../math.min.js"></script>
+    <!-- Old math.js -->
+    <!-- <script src="../math.min.js"></script> -->
+    <!-- New math.js -->
+    <script src="https://unpkg.com/mathjs@10.6.4/lib/browser/math.js"></script>
     <script src="../addons/many-seqs/sequenceArrays.js"></script>
     <script src="../addons/many-seqs/batchOEIS.js"></script>
     <script src="../addons/many-seqs/many-sequences.js"></script>
     <script src="chaos-game.js"></script>
   </head>
   <body>
-	  <center>
-		  <div id="chaos-game-holder"></div>
-	  </center>
+    <center>
+      <div id="chaos-game-holder"></div>
+    </center>
   </body>
 </html>
